@@ -21,14 +21,46 @@ To execute the control implementation on the C2000 Launchpad DSP, follow these s
 
 ---
 
-### **1. Load System Parameters**
+### **. Load System Parameters**
 
 - Open MATLAB and navigate to the folder containing the repository.
 - Run the **`DSPbbparameters_ROB.m`** file to initialize the parameters for the control system. This file sets up the required variables for the DSP program.
 
    ```matlab
    run('DSPbbparameters_ROB.m')
+   ```
 
+  2. Open the Simulink Model
+Navigate to the folder where the DSP implementation files are located.
+
+Open the Simulink model read_ADC_scribe_PWM_ROB_1ver.slx by typing the following command in the MATLAB Command Window:
+```
+matlab
+open('read_ADC_scribe_PWM_ROB_1ver.slx')
+```
+
+3. Configure the Target Hardware
+Before running the model, ensure that the target hardware is properly configured:
+
+Connect the C2000 Launchpad DSP to your computer via USB.
+In Simulink, go to "Simulink Toolstrip" → "Hardware Settings".
+Under "Hardware Implementation", select the target hardware as Texas Instruments C2000 (e.g., F28379D).
+Ensure the communication interface (e.g., COM port) is correctly set up for the DSP.
+4. Build and Deploy the Model
+Click on the "Build" button in the Simulink toolstrip to compile and upload the code to the DSP.
+Ensure the code is successfully loaded onto the hardware.
+5. Run the System
+Once the code is deployed, the DSP will execute the control algorithm in real-time.
+You can monitor the system's behavior using the connected peripherals (e.g., ADC readings or PWM outputs).
+6. Analyze and Debug
+Use tools like Code Composer Studio (if needed) to debug or monitor the DSP's operation.
+Adjust parameters in DSPbbparameters_ROB.m as necessary and re-deploy the model to test different scenarios.
+Prerequisites
+To execute the code on the C2000 Launchpad DSP, ensure you have the following:
+
+MATLAB/Simulink with the Embedded Coder and C2000 support packages installed.
+Texas Instruments Code Composer Studio (optional, for advanced debugging).
+Proper hardware setup, including power supply, connections, and any necessary sensors or actuators.
 
 3. ### **Running the Simulations**
 
@@ -36,7 +68,7 @@ To run the simulations provided in the repository, follow these steps:
 
 ---
 
-### **1. Load System Parameters**
+### **. Load System Parameters**
 
 - Open MATLAB and navigate to the folder where the repository is located.
 - Run the **`SITLparameters.m`** file to load the system parameters into the MATLAB workspace. This file initializes the required variables for the simulation.
