@@ -29,16 +29,15 @@ To execute the control implementation on the C2000 Launchpad DSP, follow these s
    ```matlab
    run('DSPbbparameters_ROB.m')
    ```
+### **. Open the Simulink Model**
 
-  2. Open the Simulink Model
 Navigate to the folder where the DSP implementation files are located.
 
 Open the Simulink model read_ADC_scribe_PWM_ROB_1ver.slx by typing the following command in the MATLAB Command Window:
 ```matlab
 open('read_ADC_scribe_PWM_ROB_1ver.slx')
 ```
-
-3. Configure the Target Hardware
+### **.  Configure the Target Hardware**
 Before running the model, ensure that the target hardware is properly configured:
 
 - Connect the C2000 Launchpad DSP to your computer via USB.
@@ -46,7 +45,8 @@ Before running the model, ensure that the target hardware is properly configured
 - Under "Hardware Implementation", select the target hardware as Texas Instruments C2000 (e.g., F28379D).
 - Ensure the communication interface (e.g., COM port) is correctly set up for the DSP.
 
-4. Build and Deploy the Model
+### **. Build and Deploy the Model**
+
 - Click on the "Build" button in the Simulink toolstrip to compile and upload the code to the DSP.
 - Ensure the code is successfully loaded onto the hardware.
 
@@ -58,11 +58,14 @@ Before running the model, ensure that the target hardware is properly configured
 Use tools like Code Composer Studio (if needed) to debug or monitor the DSP's operation.
 Adjust parameters in DSPbbparameters_ROB.m as necessary and re-deploy the model to test different scenarios.
 Prerequisites
+
+
+### **. Prerequisites**
 To execute the code on the C2000 Launchpad DSP, ensure you have the following:
 
-MATLAB/Simulink with the Embedded Coder and C2000 support packages installed.
-Texas Instruments Code Composer Studio (optional, for advanced debugging).
-Proper hardware setup, including power supply, connections, and any necessary sensors or actuators.
+- MATLAB/Simulink with the Embedded Coder and C2000 support packages installed.
+- Texas Instruments Code Composer Studio (optional, for advanced debugging).
+- Proper hardware setup, including power supply, connections, and any necessary sensors or actuators.
 
 3. ### **Running the Simulations**
 
