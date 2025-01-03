@@ -14,7 +14,7 @@ First, clone the repository to your local machine:
 git clone https://github.com/Rodolfo9706/Buck-boost-controllers.git
 cd Buck-boost-controllers 
 ```
-## **Running the Simulations**
+3. ### **Running the Simulations**
 
 To run the simulations provided in the repository, follow these steps:
 
