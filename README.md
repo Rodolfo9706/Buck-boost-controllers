@@ -14,6 +14,22 @@ First, clone the repository to your local machine:
 git clone https://github.com/Rodolfo9706/Buck-boost-controllers.git
 cd Buck-boost-controllers 
 ```
+
+### 2. **Running the Code on the C2000 Launchpad DSP**
+
+To execute the control implementation on the C2000 Launchpad DSP, follow these steps:
+
+---
+
+### **1. Load System Parameters**
+
+- Open MATLAB and navigate to the folder containing the repository.
+- Run the **`DSPbbparameters_ROB.m`** file to initialize the parameters for the control system. This file sets up the required variables for the DSP program.
+
+   ```matlab
+   run('DSPbbparameters_ROB.m')
+
+
 3. ### **Running the Simulations**
 
 To run the simulations provided in the repository, follow these steps:
