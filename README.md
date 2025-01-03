@@ -67,7 +67,7 @@ To execute the code on the C2000 Launchpad DSP, ensure you have the following:
 - Texas Instruments Code Composer Studio (optional, for advanced debugging).
 - Proper hardware setup, including power supply, connections, and any necessary sensors or actuators.
 
-3. ### **Running the Simulations**
+ ### 3.**Running the Simulations**
 
 To run the simulations provided in the repository, follow these steps:
 
