@@ -12,4 +12,29 @@ theory to guarantee almost global finite-time stability. The proposed controller
 First, clone the repository to your local machine:  
 ```bash
 git clone https://github.com/Rodolfo9706/Buck-boost-controllers.git
-cd Buck-boost-controllers
+cd Buck-boost-controllers 
+```
+## **Running the Simulations**
+
+To run the simulations provided in the repository, follow these steps:
+
+---
+
+### **1. Load System Parameters**
+
+- Open MATLAB and navigate to the folder where the repository is located.
+- Run the **`SITLparameters.m`** file to load the system parameters into the MATLAB workspace. This file initializes the required variables for the simulation.
+
+   ```matlab
+   run('SITLparameters.m')
+
+   2. Open the Simulink Model
+   
+After the parameters are loaded, navigate to the Simulations/ folder.
+
+Open the Simulink model simulacionrobusto.slx by typing the following command in the MATLAB Command Window:
+matlab
+Copiar códigoopen('simulacionrobusto.slx')
+3. Run the Simulation
+Once the model is open, click the "Run" button at the top of the Simulink interface to start the simulation.
+Observe the results in the provided scopes or output blocks included in the model.
