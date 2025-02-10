@@ -93,3 +93,11 @@ open('simulacionrobusto.slx')
 3. Run the Simulation
 Once the model is open, click the "Run" button at the top of the Simulink interface to start the simulation.
 Observe the results in the provided scopes or output blocks included in the model.
+
+## Contributors  
+
+<p align="center">
+  <a href="https://github.com/erandivg/PBVS_FA/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=erandivg/PBVS_FA" />
+  </a>
+</p>
