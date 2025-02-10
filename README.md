@@ -97,7 +97,7 @@ Observe the results in the provided scopes or output blocks included in the mode
 ## Contributors  
 
 <p align="center">
-  <a href="https://github.com/erandivg/PBVS_FA/graphs/contributors">
+  <a href="https://github.com/Rodolfo9796/Buck-boost-controllers/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=erandivg/PBVS_FA" />
   </a>
 </p>
