@@ -98,6 +98,6 @@ Observe the results in the provided scopes or output blocks included in the mode
 
 <p align="center">
   <a href="https://github.com/Rodolfo9796/Buck-boost-controllers/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=erandivg/PBVS_FA" />
+    <img src="https://contrib.rocks/image?repo=Rodolfo9706/Buck-boost-controllers" />
   </a>
 </p>
