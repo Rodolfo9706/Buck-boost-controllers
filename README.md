@@ -95,6 +95,8 @@ Once the model is open, click the "Run" button at the top of the Simulink interf
 Observe the results in the provided scopes or output blocks included in the model.
 
 ## Contributors  
+- [@gfloresc](https://github.com/gfloresc)
+- [@Rodolfo9706](https://github.com/Rodolfo9706)
 
 <p align="center">
   <a href="https://github.com/Rodolfo9796/Buck-boost-controllers/graphs/contributors">
